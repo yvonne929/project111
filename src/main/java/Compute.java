@@ -6,5 +6,14 @@ public class Compute {
         x = x+1;
         x += 1;
         System.out.println(x);
+
+        int a ;
+        a = 10;
+        System.out.println(a);
+
+        int b = 20;
+        System.out.println(b);
+
+        int j,k;
     }
 }
