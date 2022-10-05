@@ -1,3 +1,9 @@
+package array;
+
+/*
+二維陣列
+ */
+
 public class Array3 {
     public static void main(String[] args) {
         int[][] my2DArray = new int[3][4];

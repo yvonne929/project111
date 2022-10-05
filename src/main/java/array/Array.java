@@ -1,3 +1,9 @@
+package array;
+
+/*
+Array
+ */
+
 public class Array {
     public static void main(String[] args) {
         //陣列表達方式一
