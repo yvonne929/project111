@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class GuessNumber {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in); //使用者輸入
+        Scanner scanner = new Scanner(System.in);
         int min = 0;
         int MAX = 100;
 
@@ -16,7 +16,7 @@ public class GuessNumber {
             int guessNum = scanner.nextInt(); //使用者輸入要猜的數字，原為String，利用.nextInt()轉成int
 
             if(guessNum == ansNum){ //猜的數字和答案一樣
-                System.out.println("你猜到!答案是"+ansNum);// 印出答對及答案
+                System.out.println("你猜到!答案是"+ansNum);
                 break;  //跳出 while迴圈，程式停止
             }
 
