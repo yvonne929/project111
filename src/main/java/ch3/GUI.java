@@ -5,7 +5,13 @@ import java.awt.*;
 
 public class GUI extends JPanel {
     public void paintComponent(Graphics g){
-        g.drawString("Hello world in window",150,150);
+        //g.drawString("Hello world in window",150,150);
+        g.setColor(Color.BLUE);
+        g.drawLine(100,80,355,290);
+        g.setColor(Color.RED);
+        g.drawRect(50,50,120,80);
+        g.setColor(Color.orange);
+        g.fillRect(50,50,120,80);
     }
 
     public static void main(String[] args) {
