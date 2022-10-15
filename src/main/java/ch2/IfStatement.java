@@ -1,3 +1,5 @@
+package ch2;
+
 public class IfStatement {
     public static void main(String[] args) {
         int age = 20;

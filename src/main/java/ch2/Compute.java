@@ -1,3 +1,5 @@
+package ch2;
+
 public class Compute {
     public static void main(String[] args) {
         int x ;

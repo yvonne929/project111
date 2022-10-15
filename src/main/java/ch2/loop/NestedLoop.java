@@ -1,4 +1,4 @@
-package loop;
+package ch2.loop;
 
 /*
 巢狀迴圈

@@ -1,3 +1,5 @@
+package ch1;
+
 public class CharAndString {
     public static void main(String[] args) {
         String name = "Fu Jen Catholic University";

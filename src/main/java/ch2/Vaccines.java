@@ -1,3 +1,5 @@
+package ch2;
+
 import javax.swing.*;
 import java.util.Locale;
 
@@ -5,6 +7,7 @@ public class Vaccines {
     //疫苗種類查詢
     public static void main(String[] args) {
         String vaccine = JOptionPane.showInputDialog("請輸入疫苗名稱(BNT、Moderna、AZ、Janssen、MVC):");
+        //輸入的字串存入vaccine
         vaccine = vaccine.toLowerCase();
 
         if (vaccine.equals("az")) {

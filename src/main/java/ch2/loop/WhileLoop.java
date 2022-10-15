@@ -1,4 +1,4 @@
-package loop;
+package ch2.loop;
 
 /*
 while迴圈，()裡為true時會執行

@@ -1,4 +1,4 @@
-package loop;
+package ch2.loop;
 
 /*
 for迴圈

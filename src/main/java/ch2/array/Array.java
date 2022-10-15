@@ -1,4 +1,4 @@
-package array;
+package ch2.array;
 
 /*
 Array
