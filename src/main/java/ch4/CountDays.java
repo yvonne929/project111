@@ -1,8 +1,8 @@
 package ch4;
 
-import java.util.Scanner;
-
 //計算天數，輸入某年某月某日，讓程式判斷這一天是這一年的第幾天
+
+import java.util.Scanner;
 
 public class CountDays {
     public static void main(String[] args) {
