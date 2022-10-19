@@ -4,11 +4,11 @@ package ch4;
 
 public class AddUp {
     public static int addUpTo(int n){
-        int result = 0;
-        for (int i = 1; i <= n ; i++) {
-            result+= i;
-        }
-        return result;
+//        int result = 0;
+//        for (int i = 1; i <= n ; i++) {
+//            result+= i;
+//        }
+        return (n*(n+1))/2; //公式
     }
 
     public static void main(String[] args) {
