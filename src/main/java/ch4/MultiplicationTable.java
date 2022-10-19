@@ -1,5 +1,7 @@
 package ch4;
 
+//九九乘法表
+
 public class MultiplicationTable {
     public static void ninebynine_table(){
         for (int i = 1; i <= 9 ; i++) {
