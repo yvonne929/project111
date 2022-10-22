@@ -1,8 +1,8 @@
 package ch4;
 
-//檢查大寫字母
+//檢查第一個大寫字母
 
-public class CheckCapitalization {
+public class CheckUpperCase {
     public static void upperCasePosition(String input){
         boolean found = false;
         for (int i = 0; i < input.length(); i++) {
@@ -10,7 +10,7 @@ public class CheckCapitalization {
             if (Character.toUpperCase(c) == c){
                 System.out.println(c + " " + i);
                 found = true;
-                break;
+                break;//只要檢查第一個是大寫的，檢查到就跳出
             }
         }
         if (found  == false){
