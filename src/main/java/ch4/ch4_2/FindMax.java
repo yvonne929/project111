@@ -1,4 +1,4 @@
-package ch4;
+package ch4.ch4_2;
 
 public class FindMax {
     public static int findMax(int[] inputs){

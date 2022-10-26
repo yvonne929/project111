@@ -1,4 +1,4 @@
-package ch4;
+package ch4.ch4_1;
 
 //求a+aa+aaa+aaaa+aa...a的值
 //例: 2+22+222(3個數相加)。a = 2、n = 3，則輸出結果：2+22+222 = 246
