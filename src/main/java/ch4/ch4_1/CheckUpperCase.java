@@ -1,4 +1,4 @@
-package ch4;
+package ch4.ch4_1;
 
 //檢查第一個大寫字母
 

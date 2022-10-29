@@ -1,4 +1,4 @@
-package ch4;
+package ch4.ch4_1;
 
 //等差數列 公差3
 //1,4,7,...,88
