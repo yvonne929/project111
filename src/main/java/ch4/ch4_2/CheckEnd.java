@@ -1,5 +1,7 @@
 package ch4.ch4_2;
 
+//boolean 回傳結果，第一個輸入的字串是否是以第二個結尾
+
 public class CheckEnd {
     public static  boolean checkEnd(String str1,String str2){
         int j =str1.length()-1;
