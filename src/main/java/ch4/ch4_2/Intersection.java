@@ -1,6 +1,6 @@
 package ch4.ch4_2;
 
-//找出兩陣列共同的值
+//找出兩陣列共同的值，並儲存成陣列印出來
 
 import ch2.array.Array;
 
