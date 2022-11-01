@@ -1,6 +1,6 @@
 package ch4.ch4_2;
 
-//費氏數列，找index = n的值
+//求費氏數列第 n 項的值
 
 public class Fibonacci {
     public static int fibonacci(int n){
