@@ -1,4 +1,4 @@
-package ch4.ch4_1;
+package homework;
 
 //九九乘法表
 
