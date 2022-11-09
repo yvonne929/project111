@@ -12,6 +12,17 @@ public class GcdAndLcm {
             b = remain;
         }
         return a;
+
+        /*方法2
+        if(a%b == 0){
+        return b;
+        }
+        else{
+        gcd(a,b);??
+        }
+        可以簡寫成 return (a % b = 0) ? b : gcd(b,(a%b));
+
+         */
     }
     public static int lcm(int a , int b){
         return (a*b)/gcd(a,b);
