@@ -14,4 +14,8 @@ public class Circle {
     public Circle() {
         radius = 1.0;
     }
+
+    public double computeArea(){
+        return Math.PI*radius*radius;
+    }
 }
