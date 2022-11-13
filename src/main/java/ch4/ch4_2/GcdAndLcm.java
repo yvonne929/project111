@@ -18,7 +18,7 @@ public class GcdAndLcm {
         return b;
         }
         else{
-        gcd(a,b);??
+        gcd(b,(a%b));??
         }
         可以簡寫成 return (a % b = 0) ? b : gcd(b,(a%b));
 
