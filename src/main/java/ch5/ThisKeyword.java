@@ -4,6 +4,8 @@ package ch5;
 
 public class ThisKeyword {
     private double radius;
+    // 1.private final double PI  = 3.14; -> 非靜態(not static)
+    // 2.private static final double PI  = 3.14; -> 靜態(static)，共享static variable，節省記憶體空間
 
     public ThisKeyword(){
         this(1); // 呼叫 ThisKeyword 這個 class 裡的建構函數(建構子)
@@ -16,5 +18,7 @@ public class ThisKeyword {
 
     public double computeArea(){
         return Math.PI*Math.pow(this.radius,2);
+        // 1.return this.PI*Math.pow(this.radius,2);
+        // 2.return ThisKeyword.PI*Math.pow(this.radius,2);
     }
 }
