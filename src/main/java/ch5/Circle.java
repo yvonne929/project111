@@ -20,7 +20,7 @@ public class Circle {
         return Math.PI*radius*radius;
     }
 
-/*  i 的使用範圍只限於 setVar 裡 (區域變數)
+/*  i 的使用範圍只限於 setVar 裡 (區域變數、局部變數)
     public void setVar(){
         int i = 100;
     }
