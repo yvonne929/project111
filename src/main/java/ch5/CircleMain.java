@@ -1,6 +1,6 @@
 package ch5;
 
-public class Main {
+public class CircleMain {
     public static void main(String[] args) {
         Circle circle = new Circle(10);//有輸入值
         System.out.println(circle.radius);
