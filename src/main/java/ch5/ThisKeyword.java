@@ -1,6 +1,6 @@
 package ch5;
 
-//this 的使用方法
+//this and static的使用方法
 
 public class ThisKeyword {
     private double radius;
