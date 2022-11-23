@@ -22,6 +22,6 @@ public class Student {
     }
 
     public void learn(){
-        System.out.println("Learning in" + this.className);
+        System.out.println("Learning in " + this.className);
     }
 }

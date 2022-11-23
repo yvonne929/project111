@@ -22,6 +22,6 @@ public class Teacher {
     }
 
     public void teach(){
-        System.out.println("Teaching" + this.subjectName);
+        System.out.println("Teaching " + this.subjectName);
     }
 }
