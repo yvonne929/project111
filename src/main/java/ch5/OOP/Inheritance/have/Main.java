@@ -14,6 +14,6 @@ public class Main {
         System.out.println(s1.name);
         s1.learn();
         s1.sit();
-        System.out.println(t1.equals(t1));
+        //System.out.println(t1.equals(t1));
     }
 }
