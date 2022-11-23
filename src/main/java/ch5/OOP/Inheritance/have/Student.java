@@ -10,6 +10,11 @@ public class Student extends People{
         this.className = className;
     }
 
+    @Override
+    public void sit(){
+        System.out.println("Sitting in the classroom");
+    }
+
     public void learn(){
         System.out.println("Learning in " + this.className);
     }

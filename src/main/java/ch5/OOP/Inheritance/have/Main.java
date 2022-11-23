@@ -9,7 +9,10 @@ public class Main {
 
         System.out.println(t1.name);
         t1.teach();
+        t1.sit();
+        System.out.println();
         System.out.println(s1.name);
         s1.learn();
+        s1.sit();
     }
 }
