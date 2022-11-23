@@ -20,4 +20,14 @@ public class People {
     public void eat(){
         System.out.println("Eating...");
     }
+
+//    @Override
+//    public boolean equals(Object p){
+//        if (p instanceof People someoneAge){
+//            return this.age == someoneAge.age;
+//        }
+//        else {
+//            return false;
+//        }
+//    }
 }
