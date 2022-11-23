@@ -7,6 +7,7 @@ public class Main {
         Student s1 = new Student("Yvonne",410570011,20,"Java");
         Student s2 = new Student("Amy",410570,20,"Java");
 
+        t1.sit();
         t1.teach();
         s1.sit();
         s2.learn();
