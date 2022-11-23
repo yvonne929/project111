@@ -1,5 +1,7 @@
 package ch5.OOP.Inheritance.have;
 
+import java.util.ArrayList;
+
 public class Main {
     public static void main(String[] args) {
         Teacher t1 = new Teacher("ChiHua",152273,42,"Java");
