@@ -7,8 +7,8 @@ import java.awt.event.KeyListener;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 
-public class Main extends JPanel implements KeyListener, MouseListener {
-    public Main() {
+public class Window extends JPanel implements KeyListener, MouseListener {
+    public Window() {
         addKeyListener(this);
         addMouseListener(this);
     }
@@ -21,7 +21,7 @@ public class Main extends JPanel implements KeyListener, MouseListener {
     public static void main(String[] args) {
         JFrame window = new JFrame();
         window.setSize(250, 250);
-        window.setContentPane(new Main());//視窗裡的內容
+        window.setContentPane(new Window());//視窗裡的內容
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         window.setVisible(true);
     }
