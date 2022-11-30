@@ -7,9 +7,12 @@ public class AnimalMain {
         Animal cat1 = new Cat();
         Cat cat2 = new Cat();
 
-        dog1.makeSound();
-        dog2.makeSound();
-        cat1.makeSound();
+        System.out.println(dog1.animalName);
         dog1.sleep();
+        dog1.makeSound();
+
+        System.out.println(cat1.animalName);
+        cat1.sleep();
+        cat1.makeSound();
     }
 }
