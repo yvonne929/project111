@@ -5,6 +5,6 @@ package ch5.Interface;
 //一個class 可以implement多個interface
 
 public interface Edible {
-    //沒有身體(no constructor)
+    //沒有身體({}裡不能有東西)
     String youMayEat();
 }
