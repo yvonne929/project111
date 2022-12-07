@@ -40,16 +40,16 @@ public class Main extends JPanel implements KeyListener{
     public void keyPressed(KeyEvent keyEvent) {//按下按鍵
         int k = keyEvent.getKeyCode();//取得按下按鍵的ASCII keyCode
         System.out.println(k);
-        if (k == 38){//按"上"
+        if (k == KeyEvent.VK_UP){//按"上"
             s.walk(0,-5);
         }
-        if (k == 40){//按"下"
+        if (k == KeyEvent.VK_DOWN){//按"下"
             s.walk(0,5);
         }
-        if (k == 37){//按"左"
+        if (k == KeyEvent.VK_LEFT){//按"左"
             s.walk(-5,0);
         }
-        if (k == 39){//按"右"
+        if (k == KeyEvent.VK_RIGHT){//按"右"
             s.walk(5,0);
         }
         repaint();//重新繪製
