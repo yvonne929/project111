@@ -41,7 +41,7 @@ public class Main extends JPanel implements KeyListener{
         int k = keyEvent.getKeyCode();//取得按下按鍵的ASCII keyCode
         //System.out.println(k);
         switch (k){//檢查 k
-            case KeyEvent.VK_W:
+            case KeyEvent.VK_W://"或"的效果p.5-4
             case KeyEvent.VK_UP://當 k 符合此條件
                 s.walk(0,-5);//做這件事
                 break;
