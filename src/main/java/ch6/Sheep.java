@@ -14,7 +14,7 @@ public class Sheep {
     public void drawSheep(Graphics g){
         g.setColor(Color.WHITE);
         g.fillOval(x+23,y+50,225,100);//羊的身體
-        g.fillOval(x,y,75,75);//羊的頭
+        g.fillOval(x,y,75,75);//羊的頭,前兩個值是位置,後兩個是大小
         g.fillRect(x+50,y+100,25,100);//羊的腳(1)
         g.fillRect(x+100,y+100,25,100);//羊的腳(2)
         g.fillRect(x+150,y+100,25,100);//羊的腳(3)
